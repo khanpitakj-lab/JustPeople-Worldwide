@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustPeople-Worldwide | Agrar</title>
+    <style>
+        /* Grunddesign - Einheitlich mit den anderen Seiten */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .header-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            /* Verschiebt den Bildinhalt um 20% nach unten - hier kannst du den Wert anpassen */
+            object-position: center 60%;
+            display: block;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-button {
+            background-color: #34495e;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 5px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            font-weight: bold;
+        }
+
+        .nav-button:hover {
+            background-color: #3498db;
+        }
+
+        /* Die Klasse für die aktive Seite (Orange) */
+        .active-page {
+            background-color: #e67e22;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+
+        h1 { color: #27ae60; } /* Ein schönes Grün für Agrar */
+
+        footer {
+            margin-top: 50px;
+            padding: 30px 0;
+            text-align: center;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Foto für Agrar -->
+    <img src="agrar.png" alt="JustPeople Agrar Projekt" class="header-image">
+
+    <!-- Navigationsleiste -->
+    <nav>
+        <a href="index.html" class="nav-button">🏠 Home</a>
+        <a href="agrar.html" class="nav-button active-page">Agrar</a>
+        <a href="building.html" class="nav-button">Building</a>
+        <a href="manufacturing.html" class="nav-button">Manufacturing</a>
+        <a href="care.html" class="nav-button">Care</a>
+        <a href="aboutus.html" class="nav-button">About us</a>
+    </nav>
+
+    <!-- Textbereich für Agrar -->
+    <div class="content">
+        <h1>Unser Agrar-Projekt</h1>
+        <p>
+            Im Bereich <strong>Agrar</strong> konzentriert sich JustPeople-Worldwide auf nachhaltige Landwirtschaft und die Unterstützung lokaler Bauern. 
+            Unser Ziel ist es, Wissen über effiziente Anbaumethoden zu teilen und die Ernährungssicherheit zu fördern.
+        </p>
+        <p>
+            Unsere Schwerpunkte liegen in:
+            <ul>
+                <li>Nachhaltiger Pflanzenbau</li>
+                <li>Effiziente Bewässerungssysteme</li>
+                <li>Ökologische Landwirtschaft und Bodenschutz</li>
+            </ul>
+        </p>
+        <p>
+            Durch die Kombination aus traditionellem Wissen und modernen Techniken helfen wir Gemeinschaften, sich selbst zu versorgen und Überschüsse für den lokalen Markt zu produzieren.
+        </p>
+        <hr>
+        <p><em>Möchtest du mehr über unsere Methoden erfahren? Kontaktiere uns über die "About us" Seite.</em></p>
+    </div>
+
+    <!-- Footer mit Impressum -->
+    <footer>
+        <span>© 2024 JustPeople-Worldwide | In Gründung</span>
+        <a href="impressum.html">Impressum</a>
+    </footer>
+
+</body>
+</html>
